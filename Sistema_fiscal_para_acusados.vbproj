@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC851F2B-C8BF-4E6F-8CE1-EA2B4A0157A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sistema_fiscal_para_acusados.My.MyApplication</StartupObject>
+    <RootNamespace>Sistema_fiscal_para_acusados</RootNamespace>
+    <AssemblyName>Sistema_fiscal_para_acusados</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sistema_fiscal_para_acusados.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sistema_fiscal_para_acusados.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Imagen Icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BDAcusadosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDAcusadosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BDAcusadosDataSet.vb">
+      <DependentUpon>BDAcusadosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Abogado.Designer.vb">
+      <DependentUpon>Frm_Abogado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Abogado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Acusados.Designer.vb">
+      <DependentUpon>Frm_Acusados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Acusados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Bitacora.Designer.vb">
+      <DependentUpon>Frm_Bitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Bitacora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Delito.Designer.vb">
+      <DependentUpon>Frm_Delito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Delito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FRM_Fiscalia.Designer.vb">
+      <DependentUpon>FRM_Fiscalia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FRM_Fiscalia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Administrador.Designer.vb">
+      <DependentUpon>Frm_Menu_Administrador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Administrador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Detective.Designer.vb">
+      <DependentUpon>Frm_Menu_Detective.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Detective.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Fiscal.Designer.vb">
+      <DependentUpon>Frm_Menu_Fiscal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Menu_Fiscal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Usuario.Designer.vb">
+      <DependentUpon>Frm_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.vb">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo\M_Procesos.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reportes\CR_Abogado_A.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Abogado_A.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CR_Cant_Crimen.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Cant_Crimen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CR_Defendidos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Defendidos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CR_Expedientes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Expedientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\CR_Peor.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_Peor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\FRM_Reportes.Designer.vb">
+      <DependentUpon>FRM_Reportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FRM_Reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios\Frm_Abogado.resx">
+      <DependentUpon>Frm_Abogado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Acusados.resx">
+      <DependentUpon>Frm_Acusados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Bitacora.resx">
+      <DependentUpon>Frm_Bitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Delito.resx">
+      <DependentUpon>Frm_Delito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FRM_Fiscalia.resx">
+      <DependentUpon>FRM_Fiscalia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Menu_Administrador.resx">
+      <DependentUpon>Frm_Menu_Administrador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Menu_Detective.resx">
+      <DependentUpon>Frm_Menu_Detective.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Menu_Fiscal.resx">
+      <DependentUpon>Frm_Menu_Fiscal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Usuario.resx">
+      <DependentUpon>Frm_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CR_Abogado_A.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Abogado_A.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CR_Cant_Crimen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Cant_Crimen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CR_Defendidos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Defendidos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CR_Expedientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Expedientes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CR_Peor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_Peor.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FRM_Reportes.resx">
+      <DependentUpon>FRM_Reportes.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BDAcusadosDataSet.xsc">
+      <DependentUpon>BDAcusadosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDAcusadosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDAcusadosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDAcusadosDataSet.xss">
+      <DependentUpon>BDAcusadosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagen Icono.ico" />
+    <None Include="Resources\Perfil_Izquierdo.png" />
+    <None Include="Resources\Perfil_Derecho.png" />
+    <None Include="Resources\Imagen_Login.png" />
+    <None Include="Resources\Frente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
