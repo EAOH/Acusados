@@ -1,0 +1,511 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sistema_fiscal_para_acusados
+</name>
+</assembly>
+<members>
+<member name="T:Sistema_fiscal_para_acusados.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Sistema_fiscal_para_acusados.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Sistema_fiscal_para_acusados.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Sistema_fiscal_para_acusados.My.Resources.Resources.Frente">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_fiscal_para_acusados.My.Resources.Resources.Imagen_Login">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_fiscal_para_acusados.My.Resources.Resources.Perfil_Derecho">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema_fiscal_para_acusados.My.Resources.Resources.Perfil_Izquierdo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AbogadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Abogado_EmailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Abogado_TelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AcusadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_EmailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_FotoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_HistorialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_RasgoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_TelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_BitacoraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_CuentanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_DelitoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_EvidenciaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_ExpedienteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Expediente_MotivoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Expediente_ObservacionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_FiscaliaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Fiscalia_EmailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Fiscalia_TelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_UsuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AbogadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Abogado_EmailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Abogado_TelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AcusadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_EmailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_FotoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_HistorialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_RasgoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_TelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_BitacoraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_CuentanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_DelitoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_EvidenciaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_ExpedienteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Expediente_MotivoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Expediente_ObservacionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_FiscaliaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Fiscalia_EmailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Fiscalia_TelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_UsuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AbogadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Abogado_EmailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Abogado_TelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AcusadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_EmailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_FotoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_HistorialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_RasgoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Acusado_TelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_BitacoraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_CuentanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_DelitoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_EvidenciaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_ExpedienteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Expediente_MotivoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Expediente_ObservacionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_FiscaliaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Fiscalia_EmailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_Fiscalia_TelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSet.TBL_UsuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_AbogadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Abogado_EmailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Abogado_TelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_AcusadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Acusado_EmailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Acusado_FotoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Acusado_HistorialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Acusado_RasgoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Acusado_TelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_BitacoraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_CuentanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_DelitoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_EvidenciaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_ExpedienteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Expediente_MotivoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Expediente_ObservacionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_FiscaliaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Fiscalia_EmailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_Fiscalia_TelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TBL_UsuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sistema_fiscal_para_acusados.BDAcusadosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sistema_fiscal_para_acusados.BDAcusadosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sistema_fiscal_para_acusados.BDAcusadosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.UpdateAll(Sistema_fiscal_para_acusados.BDAcusadosDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Sistema_fiscal_para_acusados.BDAcusadosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
